@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گاج - ورود</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../Sass/login.min.css">
+
+<body>
+    <div class="backBtn"></div>
+    <a id="backHome" href="../html/index.html">
+        <svg id="svgBackHome" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#85C441"
+            class="bi bi-house-door-fill" viewBox="0 0 16 16">
+            <path
+                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+        </svg>
+    </a>
+    <div id="main">
+        <div id="interMain1">
+            <div class="backIntMain1" id="cover1">
+                <img id="backIm" src="../img/84.png" alt="">
+                <button id="login" class="btnChTab">ورود</button>
+                <button id="singout" class="btnChTab">عضویت</button>
+                <span>Copyright 2024 - Gajmarket©</span>
+            </div>
+            <div id="loginTab">
+                <img src="../img/85.png" alt="#">
+
+                <form id="loginForm" method="get">
+                    <div class="floating-lable-group">
+                        <input required
+                            pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$(^9[0-9]{9}$)|^(09[0-9]{9}$)"
+                            class="mobile" type="text" id="mobile">
+                        <label class="floating-lable1">ایمیل یا شماره همراه را وارد کنید ...</label>
+
+                        <input required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" class="user" type="text"
+                            id="username">
+                        <label class="floating-lable2">رمز عبور را وارد کنید ...</label>
+
+                    </div>
+                    <input id="accept" type="submit" value="تایید"></input>
+                </form>
+
+
+                <!-- <button id="btnIn2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#A7A8B0" class="bi bi-eye-fill"
+                        viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </button> -->
+                <button id="forgorBtn">رمز عبور خود را فراموش کرده اید؟</button>
+                <span id="saveS"><input id="checkB" type="checkbox"><span>ذخیره اطلاعات برای ورود بعدی</span></span>
+
+
+                <button id="backP">برگشت</button>
+            </div>
+            <div id="singoutTab">
+                <img src="../img/85.png" alt="#">
+                <!-- <input type="text" placeholder="موبایل یا ایمیل معتبر*"> -->
+
+                <form id="outForm" method="get">
+                    <div class="floating-lable-group">
+                        <input required
+                            pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$(^9[0-9]{9}$)|^(09[0-9]{9}$)"
+                            class="mobile" type="text" id="mobileo">
+                        <label class="floating-lable1">موبایل یا ایمیل معتبر*</label>
+
+                        <input required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" class="user" type="text"
+                            id="usernameo">
+                        <label class="floating-lable2">رمز عبور*</label>
+
+                        <input class="userT" type="text" id="Tusernameo">
+                        <label class="floating-lable3">تکرار رمز عبور*</label>
+                    </div>
+                    <input type="submit" id="accept1" value="تایید"></input>
+                </form>
+
+
+                <!-- <button id="btnIn2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#A7A8B0" class="bi bi-eye-fill"
+                        viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </button>
+                <button id="btnIn3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#A7A8B0" class="bi bi-eye-fill"
+                        viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </button> -->
+                <span id="description">رمز عبور باید شامل حروف بزرگ و کوچک انگلیسی ، اعداد و سیمبل باشد.</span>
+                <span id="saveS">
+                    <input id="checkB" type="checkbox">
+                    <span class="saveSs">
+                        شرایط و قوانین استفاده از سایت گاج مارکت را
+                        مطالعه نموده و با کلیه موارد آن موافقم.
+                    </span>
+                </span>
+
+                <button id="backP">برگشت</button>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>

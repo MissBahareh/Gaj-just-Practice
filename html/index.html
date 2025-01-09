@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گاج - اصلی</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../Sass/index.min.css">
+
+</head>
+
+<body>
+    <div id="scrollHeader">
+        <img id="scrollHeaderimg" src="../img/lpgo.png" alt="#">
+        <div id="inputdiv">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </button>
+            <input id="scrollHeaderinp" type="text" placeholder="محصول خود را جست و جو کنید ...">
+        </div>
+        <div id="btnDiv">
+            <a href="../html/login.html" style="margin: 0 50px;border: 1px solid black;"><button style="background: white;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>ثبت نام / ورود</button></a>
+            <a href="#"><button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-basket" viewBox="0 0 16 16">
+                        <path
+                            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5" />
+                    </svg>سبد خرید<span style="background-color: white;">0</span></button></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="header">
+            <div id="subAccess">
+                <div id="subAccessInterDiv"></div>
+                <div id="subAccessInterDivDetail"></div>
+                <div id="subAccessInterDivDetailSub"></div>
+                <ul id="subAccessUl">
+                    <li class="mainLi">کمک درسی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">عمومی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">کودک و نوجوان
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">دانشگاهی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">زبان خارجی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">لوازم تحریر
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">بازی و آموزشی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div id="access">
+                <div id="inter">
+                    <div id="logo">
+                        <img src="../img/lpgo.png" alt="logo">
+                    </div>
+                    <div id="search">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="محصول خود را جست و جو کنید ...">
+
+                    </div>
+                </div>
+                <div id="btnH">
+                    <a href="../html/login.html">
+                        <button id="user" style="background-color:rgba(255, 255, 255, 0) ; border: 1px solid black;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            ثبت نام / ورود
+                        </button>
+                    </a>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-basket" viewBox="0 0 16 16">
+                            <path
+                                d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5" />
+                        </svg>
+                        سبد خرید
+                        <span>0</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="section1">
+            <div id="backS1"></div>
+            <div id="backS1B"></div>
+            <div id="rightSS1">
+                <img src="../img/70.jpg" alt="#">
+                <button id="btnNS1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </button>
+                <button id="btnBS1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-arrow-left"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </button>
+            </div>
+            <div id="leftSS1">
+                <a href="#"><img src="../img/1.jpg" alt="مجموعه کتاب های کنکور 1402"></a>
+            </div>
+        </div>
+        <div id="section2">
+            <a href="#">
+                <div class="itemS2">
+                    <img src="../img/2.jpg" alt="">
+                    <h2>بازی آموزشی</h2>
+                    <span>1500+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/3.jpg" alt="">
+                    <h2>کتاب‌ دانشگاهی</h2>
+                    <span>4000+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/4.jpg" alt="">
+                    <h2>کتاب‌ کمک درسی</h2>
+                    <span>5000+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/5.jpg" alt="">
+                    <h2>کتاب‌ علوم انسانی</h2>
+                    <span>8000+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/6.jpg" alt="">
+                    <h2>روانشناسی</h2>
+                    <span>2000+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/7.jpg" alt="">
+                    <h2>رمان بزرگسال</h2>
+                    <span>7000+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/8.jpg" alt="">
+                    <h2>کتاب زبان</h2>
+                    <span>3000+ محصول</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="itemS2">
+                    <img src="../img/9.jpg" alt="">
+                    <h2>لوازم التحریر</h2>
+                    <span>12000+ محصول</span>
+                </div>
+            </a>
+        </div>
+        <img id="backS3" src="../img/backS3.svg" alt="">
+        <div id="section3">
+            <div id="headerS3">
+                <div style="justify-content : flex-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    <span style="border-bottom: 3px solid white; height: 100%;">تخفیف های جداگانه</span>
+                    <svg style="margin-right:-5px ;" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        fill="currentColor" class="bi bi-exclamation-lg" viewBox="0 0 16 16">
+                        <path
+                            d="M7.005 3.1a1 1 0 1 1 1.99 0l-.388 6.35a.61.61 0 0 1-1.214 0zM7 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0" />
+                    </svg>
+                </div>
+                <div style="justify-content : flex-end">
+                    <span> <span>زمان باقیمانده</span>12:56:36
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-clock-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                        </svg>
+                    </span>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+            <div id="contentS3">
+
+                <div class="cartS3">
+                    <div class="interCarts3Top">
+                        <img src="../img/10.jpg" alt="">
+                        <span>کتاب هوش فرازمینی ET</span>
+                    </div>
+                    <div class="interCarts3Bottom">
+                        <div class="interBottS3">
+                            <span style="width: 30%; background-color: #E14F4F;">25%</span>
+                            <span style="width: 70%;background-color: green;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 2v4.586l7 7L14.586 9l-7-7zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586z" />
+                                    <path
+                                        d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1z" />
+                                </svg> 582.750 تومان
+
+                            </span>
+                            <span id="price">777.000</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cartS3">
+                    <div class="interCarts3Top">
+                        <img src="../img/10.jpg" alt="">
+                        <span>کتاب هوش فرازمینی ET</span>
+                    </div>
+                    <div class="interCarts3Bottom">
+                        <div class="interBottS3">
+                            <span style="width: 30%; background-color: #E14F4F;">25%</span>
+                            <span style="width: 70%;background-color: green;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 2v4.586l7 7L14.586 9l-7-7zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586z" />
+                                    <path
+                                        d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1z" />
+                                </svg> 582.750 تومان
+
+                            </span>
+                            <span id="price">777.000</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cartS3">
+                    <div class="interCarts3Top">
+                        <img src="../img/10.jpg" alt="">
+                        <span>کتاب هوش فرازمینی ET</span>
+                    </div>
+                    <div class="interCarts3Bottom">
+                        <div class="interBottS3">
+                            <span style="width: 30%; background-color: #E14F4F;">25%</span>
+                            <span style="width: 70%;background-color: green;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 2v4.586l7 7L14.586 9l-7-7zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586z" />
+                                    <path
+                                        d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1z" />
+                                </svg> 582.750 تومان
+
+                            </span>
+                            <span id="price">777.000</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cartS3">
+                    <div class="interCarts3Top">
+                        <img src="../img/10.jpg" alt="">
+                        <span>کتاب هوش فرازمینی ET</span>
+                    </div>
+                    <div class="interCarts3Bottom">
+                        <div class="interBottS3">
+                            <span style="width: 30%; background-color: #E14F4F;">25%</span>
+                            <span style="width: 70%;background-color: green;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 2v4.586l7 7L14.586 9l-7-7zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586z" />
+                                    <path
+                                        d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1z" />
+                                </svg> 582.750 تومان
+
+                            </span>
+                            <span id="price">777.000</span>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="cartS3">
+                    <div class="interCarts3Top">
+                        <img src="../img/10.jpg" alt="">
+                        <span>کتاب هوش فرازمینی ET</span>
+                    </div>
+                    <div class="interCarts3Bottom">
+                        <div class="interBottS3">
+                            <span style="width: 30%; background-color: #E14F4F;">25%</span>
+                            <span style="width: 70%;background-color: green;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 2v4.586l7 7L14.586 9l-7-7zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586z" />
+                                    <path
+                                        d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1z" />
+                                </svg> 582.750 تومان
+
+                            </span>
+                            <span id="price">777.000</span>
+
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+            </div>
+        </div>
+        <div id="section4">
+            <button id="btnnext">
+                <svg id="next" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                    class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708" />
+                    <path fill-rule="evenodd"
+                        d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708" />
+                </svg>
+            </button>
+            <button id="btnback">
+                <svg id="back" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                    class="bi bi-chevron-double-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                    <path fill-rule="evenodd"
+                        d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                </svg>
+            </button>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img class="hideimg" src="../img/panter.png" alt="">
+                        <img class="visibleimg" src="../img/panter.png" alt="">
+                    </div>
+                    <span>پنتر</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img style="width: 80px;height: 80px;" class="hideimg" src="../img/gaj.jpg" alt="">
+                        <img style="width: 80px;height: 80px;" class="visibleimg" src="../img/gaj.jpg" alt="">
+                    </div>
+                    <span>گاج</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img style="width: 90px;height: 50px;" class="hideimg" src="../img/clips.webp" alt="">
+                        <img style="width: 90px;height: 50px;" class="visibleimg" src="../img/clips.webp" alt="">
+                    </div>
+                    <span>کلیپس</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img style="width: 90px;height: 50px;" class="hideimg" src="../img/hopa.webp" alt="">
+                        <img style="width: 90px;height: 50px;" class="visibleimg" src="../img/hopa.webp" alt="">
+                    </div>
+                    <span>هوپا</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img style="width: 100px;height: 80px;" class="hideimg" src="../img/cheshme.webp" alt="">
+                        <img style="width: 100px;height: 80px;" class="visibleimg" src="../img/cheshme.webp" alt="">
+                    </div>
+                    <span>چشمه</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img style="width: 80px;height: 70px;" class="hideimg" src="../img/sabz.webp" alt="">
+                        <img style="width: 80px;height: 70px;" class="visibleimg" src="../img/sabz.webp" alt="">
+                    </div>
+                    <span>خیلی سبز</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cartS4">
+                    <div class="imgCartS4">
+                        <img style="width: 80px;height: 80px;" class="hideimg" src="../img/porteghal.webp" alt="">
+                        <img style="width: 80px;height: 80px;" class="visibleimg" src="../img/porteghal.webp" alt="">
+                    </div>
+                    <span>پرتقال</span>
+                </div>
+            </a>
+        </div>
+        <div id="section5">
+            <h2>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#85C441"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    کمک درسی
+                </span>
+            </h2>
+            <div id="controlCarts">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBack"></div>
+            <div class="cartsS5">
+                <div class="cartS5">
+                    <img src="../img/11.jpg" alt="">
+                    <p>کتاب پرسش های چهار گزینه ای شیمی یازدهم</p>
+                    <span><span style="text-decoration: line-through;">680.000</span><button>16%</button></span>
+                    <span>571.200 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/12.jpg" alt="">
+                    <p>کتاب حفظیات علوم و فنون ادبی جامع کنکور انسانی</p>
+                    <span><span style="text-decoration: line-through;">98.000</span><button>21%</button></span>
+                    <span>77.420 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/13.jpg" alt="">
+                    <p>کتاب فیزیک دوازدهم تجربی جلد 2 سری ویندوز</p>
+                    <span><span style="text-decoration: line-through;">430.000</span><button>21%</button></span>
+                    <span>339.700 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/14.jpg" alt="">
+                    <p>کتاب روانشناسی جامع کنکور انسانی انتشارات</p>
+                    <span><span style="text-decoration: line-through;">450.000</span><button>20%</button></span>
+                    <span>360.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img//15.jpg" alt="">
+                    <p>کتاب فارسی هشتم انتشارات مبتکران سال چاپ</p>
+                    <span><span style="text-decoration: line-through;">498.000</span><button>21%</button></span>
+                    <span>393.420 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/16.jpg" alt="">
+                    <p>کتاب دیکته شب اول انتشارات قدیانی سال چاپ</p>
+                    <span><span style="text-decoration: line-through;">60.000</span><button>20%</button></span>
+                    <span>48.000 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section6">
+            <div class="cartS6">
+                <img src="../img/17.jpg" alt="#">
+            </div>
+            <div class="cartS6">
+                <img src="../img/18.jpg" alt="#">
+            </div>
+            <div class="cartS6">
+                <img src="../img/19.gif" alt="#">
+            </div>
+            <div class="cartS6">
+                <img src="../img/20.jpg" alt="#">
+            </div>
+        </div>
+        <div id="section7">
+            <div id="controlCartsS7">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-eye-fill"
+                        viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBacks7"></div>
+            <span class="sTitleS7">عمومی بزرگسال</span>
+            <div class="titleS7">
+                <div></div>
+            </div>
+            <div class="sideRs7">
+                <img src="../img/21.webp" alt="">
+            </div>
+            <div class="sideLs7">
+                <div class="cartS7">
+                    <img src="../img/22.jpg" alt="">
+                    <h3>کتاب بیگانه</h3>
+                    <span><span style="text-decoration: line-through;">125.000</span><button>10%</button></span>
+                    <span>112.500 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/23.jpg" alt="">
+                    <h3>کتاب غرور و تعصب</h3>
+                    <span><span style="text-decoration: line-through;">280.000</span><button>10%</button></span>
+                    <span>252.000 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/24.jpg" alt="">
+                    <h3>کتاب سمفونی مردگان </h3>
+                    <span><span style="text-decoration: line-through;">180.000</span><button>10%</button></span>
+                    <span>162.000 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/25.jpg" alt="">
+                    <h3>کتاب فیزیک کوانتومی</h3>
+                    <span><span style="text-decoration: line-through;">182.000</span><button>10%</button></span>
+                    <span>163.800 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section8">
+            <h2>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#85C441"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    پرفروش‌های کتاب زبان‌های خارجی
+                </span>
+            </h2>
+            <div id="controlCarts">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBack"></div>
+            <div class="cartsS5">
+                <div class="cartS5">
+                    <img src="../img/26.jpg" alt="">
+                    <p>Essential Words for The TOEFL Seventh Edition</p>
+                    <span><span style="text-decoration: line-through;">245.000</span><button>30%</button></span>
+                    <span>171.500 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/27.jpg" alt="">
+                    <p>American Oxford Primary Skills 1 Reading</p>
+                    <span><span style="text-decoration: line-through;">70.000</span><button>30%</button></span>
+                    <span>49.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/28.jpg" alt="">
+                    <p>Evolve 1 Student's Book + Workbook</p>
+                    <span><span style="text-decoration: line-through;">290.000</span><button>30%</button></span>
+                    <span>203.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/29.jpg" alt="">
+                    <p>کتاب The Scarlet Pimpernel
+                    </p>
+                    <span><span style="text-decoration: line-through;">60.000</span><button>30%</button></span>
+                    <span>49.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/30.jpg" alt="">
+                    <p>Active Skills For Reading 4 Third Edition</p>
+                    <span><span style="text-decoration: line-through;">180.000</span><button>30%</button></span>
+                    <span>126.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/31.jpg" alt="">
+                    <p>Grammatik aktiv A1-B1</p>
+                    <span><span style="text-decoration: line-through;">420.000</span><button>30%</button></span>
+                    <span>294.000 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section9">
+            <div class="rSideS9">
+                <div class="topRsideS9">
+                    <div class="rsideTs91">
+                        <img src="../img/32.jpg" alt="#">
+                    </div>
+                    <div class="rsideBs91">
+                        <img src="../img/33.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="bottRsideS9">
+                    <div class="rsideTs92">
+                        <img src="../img/35.jpg" alt="#">
+                    </div>
+                    <div class="rsideBs92">
+                        <img src="../img/36.jpg" alt="#">
+                    </div>
+                </div>
+            </div>
+            <div class="lSideS9">
+                <img src="../img/34.jpg" alt="#">
+            </div>
+
+
+        </div>
+        <div id="section10">
+            <h2>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#85C441"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    پرفروش‌های لوازم تحریر
+                </span>
+            </h2>
+            <div id="controlCarts">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBack"></div>
+            <div class="cartsS5">
+                <div class="cartS5">
+                    <img src="../img/37.jpg" alt="">
+                    <p>آبرنگ 12 رنگ پارسیکار کد JM777-12</p>
+                    <span><span style="text-decoration: line-through;">75.400</span><button>25%</button></span>
+                    <span>56.550 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/38.jpg" alt="">
+                    <p>چسب ماتیکی آریا کد 8005 - 15 گرمی</p>
+                    <span><span style="text-decoration: line-through;">22.200</span><button>25%</button></span>
+                    <span>16.650 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/28.jpg" alt="">
+                    <p>مداد فکتیس طرح Insects بسته 3 عددی همراه با پاک</p>
+                    <span><span style="text-decoration: line-through;">51.500</span><button>25%</button></span>
+                    <span>38.625 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/40.jpg" alt="">
+                    <p>غلط گیر 12 میلی لیتری پنتر کد 24-102
+                    </p>
+                    <span><span style="text-decoration: line-through;">26.400</span><button>10%</button></span>
+                    <span>23.760 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/41.jpg" alt="">
+                    <p>خودکار ژله ای 5 رنگ 0.5 میلی متری زبرا طرح آدم</p>
+                    <span><span style="text-decoration: line-through;">400.000</span><button>10%</button></span>
+                    <span>360.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/42.jpg" alt="">
+                    <p>تراش دو قلوی مخزن دار کنکو مدل سفینه کد 1953</p>
+                    <span><span style="text-decoration: line-through;">39.500</span><button>10%</button></span>
+                    <span>35.550 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section11">
+            <div id="controlCartsS7">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-eye-fill"
+                        viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBacks7"></div>
+            <span class="sTitleS7">آموزشی</span>
+            <div class="titleS7">
+                <div></div>
+            </div>
+            <div class="sideRs7">
+                <img src="../img/43.webp" alt="">
+            </div>
+            <div class="sideLs7">
+                <div class="cartS7">
+                    <img src="../img/44.jpg" alt="">
+                    <h3>کتاب شیمی جامع کنکور جلد 1 سری iQ برای کنکور</h3>
+                    <span><span style="text-decoration: line-through;">960.000</span><button>15%</button></span>
+                    <span>586.500 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/45.jpg" alt="">
+                    <h3>کتاب عربی یازدهم فنی و حرفه ای سری فرمول بیست</h3>
+                    <span><span style="text-decoration: line-through;">180.000</span><button>15%</button></span>
+                    <span>153.000 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/46.jpg" alt="">
+                    <h3>کتاب جامع هشتم سری EQ</h3>
+                    <span><span style="text-decoration: line-through;">680.000</span><button>15%</button></span>
+                    <span>578.000 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/47.jpg" alt="">
+                    <h3>کتاب ریاضی ششم سری سیر تا پیاز</h3>
+                    <span><span style="text-decoration: line-through;">690.000</span><button>15%</button></span>
+                    <span>586.500 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section12">
+            <h2>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#85C441"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    پرفروش‌های کتاب کودک
+                </span>
+            </h2>
+            <div id="controlCarts">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBack"></div>
+            <div class="cartsS5">
+                <div class="cartS5">
+                    <img src="../img/48.jpg" alt="">
+                    <p>کتاب قصه های شب مجموعه دوم جلدهای 6 تا</p>
+                    <span><span style="text-decoration: line-through;">80.000</span><button>10%</button></span>
+                    <span>72.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/49.jpg" alt="">
+                    <p>کتاب بچه شیر تنها نمی ماند(رحلی)نیستان</p>
+                    <span><span style="text-decoration: line-through;">12.000</span><button>10%</button></span>
+                    <span>10.800 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/50.jpg" alt="">
+                    <p>کتاب دایره(آفرینگان)</p>
+                    <span><span style="text-decoration: line-through;">6.000</span><button>10%</button></span>
+                    <span>5.400 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/51.jpg" alt="">
+                    <p>کتاب در هر شرایطی دوستت دارم
+                    </p>
+                    <span><span style="text-decoration: line-through;">55.000</span><button>10%</button></span>
+                    <span>49.500 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/53.jpg" alt="">
+                    <p>کتاب این درخت من است</p>
+                    <span><span style="text-decoration: line-through;">45.000</span><button>10%</button></span>
+                    <span>40.500 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/52.jpg" alt="">
+                    <p>کتاب با زمین دوست باشیمکد 1953</p>
+                    <span><span style="text-decoration: line-through;">25.000</span><button>10%</button></span>
+                    <span>22.500 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section13">
+            <div class="cartS6">
+                <img src="../img/54.jpg" alt="#">
+            </div>
+            <div class="cartS6">
+                <img src="../img/55.jpg" alt="#">
+            </div>
+            <div class="cartS6">
+                <img src="../img/56.gif" alt="#">
+            </div>
+            <div class="cartS6">
+                <img src="../img/57.jpg" alt="#">
+            </div>
+        </div>
+        <div id="section14">
+            <div id="controlCartsS7">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-eye-fill"
+                        viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBacks7"></div>
+            <span class="sTitleS7">لوازم تحریر</span>
+            <div class="titleS7">
+                <div></div>
+            </div>
+            <div class="sideRs7">
+                <img src="../img/58.webp" alt="">
+            </div>
+            <div class="sideLs7">
+                <div class="cartS7">
+                    <img src="../img/59.jpg" alt="">
+                    <h3>دفترچه یادداشت 30 برگ رج طرح Koala</h3>
+                    <span><span style="text-decoration: line-through;">19.600</span><button>10%</button></span>
+                    <span>17.640 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/60.jpg" alt="">
+                    <h3>جامدادی کلیپس طرح گوزن کد 3-0773</h3>
+                    <span><span style="text-decoration: line-through;">67.700</span><button>10%</button></span>
+                    <span>60.930 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/61.jpg" alt="">
+                    <h3>مداد رنگی 48 رنگ مپد مدل Color Peps جعبه مقوایی</h3>
+                    <span><span style="text-decoration: line-through;">530.000</span><button>10%</button></span>
+                    <span>477.000 تومان</span>
+                </div>
+                <div class="cartS7">
+                    <img src="../img/62.jpg" alt="">
+                    <h3>ماژیک علامتگذار 2 رنگ ام پی مدل Click کد PE527</h3>
+                    <span><span style="text-decoration: line-through;">343.000</span><button>25%</button></span>
+                    <span>257.250 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section15">
+            <h2>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#85C441"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    پرفروش‌های کتاب دانشگاهی
+                </span>
+            </h2>
+            <div id="controlCarts">
+                <span style="height: 30px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-eye-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                        <path
+                            d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                    </svg>
+                </span>
+                <span>مشاهده بیشتر</span>
+
+            </div>
+            <div id="controlCartsBack"></div>
+            <div class="cartsS5">
+                <div class="cartS5">
+                    <img src="../img/63.jpg" alt="">
+                    <p>کتاب اندیشه اسلامی جلد 1
+                    </p>
+                    <span><span style="text-decoration: line-through;">70.000</span><button>5%</button></span>
+                    <span>66.500 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/64.jpg" alt="">
+                    <p>کتاب خلاصه فیزیولوژی پزشکی گایتون و هال
+                    </p>
+                    <span><span style="text-decoration: line-through;">300.000</span><button>5%</button></span>
+                    <span>285.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/65.jpg" alt="">
+                    <p>کتاب گیربکس ها و ترانس اکسل های اتوماتیک</p>
+                    <span><span style="text-decoration: line-through;">290.000</span><button>5%</button></span>
+                    <span>275.500 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/66.jpg" alt="">
+                    <p>کتاب مکانیک خاک گودبرداری پی سازی و سازه
+                    </p>
+                    <span><span style="text-decoration: line-through;">255.000</span><button>5%</button></span>
+                    <span>213.750 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/67.jpg" alt="">
+                    <p>کتاب شیمی آلی</p>
+                    <span><span style="text-decoration: line-through;">240.000</span><button>20%</button></span>
+                    <span>192.000 تومان</span>
+                </div>
+                <div class="cartS5">
+                    <img src="../img/68.jpg" alt="">
+                    <p>کتاب حسابداری پیشرفته جلد 1</p>
+                    <span><span style="text-decoration: line-through;">240.000</span><button>5%</button></span>
+                    <span>288.000 تومان</span>
+                </div>
+            </div>
+        </div>
+        <div id="section16">
+            <img src="../img/69.jpg" alt="">
+
+        </div>
+        <div id="section17">
+            <h2>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#85C441"
+                        class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8" />
+                    </svg>
+                    بازدیدهای اخیر شما
+                </span>
+            </h2>
+            <div class="cartsS5">
+                <div class="cartS5">
+                    <!-- <img src="../img/63.jpg" alt="">
+                    <p>کتاب اندیشه اسلامی جلد 1
+                    </p>
+                    <span><span style="text-decoration: line-through;">70.000</span><button>5%</button></span>
+                    <span>66.500 تومان</span> -->
+                </div>
+                <div class="cartS5">
+                    <!-- <img src="../img/64.jpg" alt="">
+                    <p>کتاب خلاصه فیزیولوژی پزشکی گایتون و هال
+                    </p>
+                    <span><span style="text-decoration: line-through;">300.000</span><button>5%</button></span>
+                    <span>285.000 تومان</span> -->
+                </div>
+                <div class="cartS5">
+                    <!-- <img src="../img/65.jpg" alt="">
+                    <p>کتاب گیربکس ها و ترانس اکسل های اتوماتیک</p>
+                    <span><span style="text-decoration: line-through;">290.000</span><button>5%</button></span>
+                    <span>275.500 تومان</span> -->
+                </div>
+                <div class="cartS5">
+                    <!-- <img src="../img/66.jpg" alt="">
+                    <p>کتاب مکانیک خاک گودبرداری پی سازی و سازه
+                    </p>
+                    <span><span style="text-decoration: line-through;">255.000</span><button>5%</button></span>
+                    <span>213.750 تومان</span> -->
+                </div>
+                <div class="cartS5">
+                    <!-- <img src="../img/67.jpg" alt="">
+                    <p>کتاب شیمی آلی</p>
+                    <span><span style="text-decoration: line-through;">240.000</span><button>20%</button></span>
+                    <span>192.000 تومان</span> -->
+                </div>
+                <div class="cartS5">
+                    <!-- <img src="../img/68.jpg" alt="">
+                    <p>کتاب حسابداری پیشرفته جلد 1</p>
+                    <span><span style="text-decoration: line-through;">240.000</span><button>5%</button></span>
+                    <span>288.000 تومان</span> -->
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+
+            <div id="tSf">
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img src="../img/71.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4>پرداخت امن از<strong>درگاه بانکی</strong></h4>
+                        <span>امنیت در خریدهای آنلاین</span>
+                    </div>
+                </div>
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img src="../img/72.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4>تضمین<strong>کیفیت کالا</strong></h4>
+                        <span>خرید بهترین کالای موجود</span>
+                    </div>
+                </div>
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img style="width: 80px;" src="../img/73.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4 style="font-size: 14px;">فرصت هفت روزه<strong>بازگشت کالا</strong></h4>
+                        <span style="font-size: 12px;">ضمانت بازگشت کالا تا 7 روز</span>
+                    </div>
+                </div>
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img style="height: 60px;" src="../img/74.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4>پشتیبانی<strong>24 ساعته</strong></h4>
+                        <span>تماس با 0216420</span>
+                    </div>
+                </div>
+            </div>
+            <div id="mSf">
+                <div id="sideRM">
+                    <div id="col1f">
+                        <h5><strong>راهنمای</strong>خرید</h5>
+                        <button>چگونگی ثبت سفارش</button>
+                        <button>چگونگی ارسال کالا</button>
+                        <button>چگونگی پرداخت</button>
+                    </div>
+                    <div id="col2f">
+                        <h5><strong>خدمات</strong>مشتریان</h5>
+                        <button>معرفی تخفیف‌ها</button>
+                        <button>پرسش‌های متداول</button>
+                        <button>چگونگی بازگشت کالا</button>
+                        <button>حریم خصوصی</button>
+                    </div>
+                    <div id="col3f">
+                        <h5><strong>مجموعه </strong>گاج</h5>
+                        <button>گاجینو</button>
+                        <button>دکتر آی کیو</button>
+                        <button>مای گاج</button>
+                    </div>
+                    <div id="col4f">
+                        <h5><strong>نقشه</strong>گاج مارکت</h5>
+                        <button>درباره ما</button>
+                        <button>تماس با ما</button>
+                        <button>فرصت شغلی</button>
+                        <button>شعب گاج<span>جدید</span></button>
+                    </div>
+                </div>
+                <div id="sideLM">
+                    <div id="rMSF">
+                        <span style="background-color: #85C441;border-radius: 10px;color: white;">کارشناسان ما میزبان
+                            صدایتان هستند <img style="margin: 0 5px;"
+                                src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Slightly%20Smiling%20Face.png"
+                                alt="Slightly Smiling Face" width="25" height="25" /></span>
+                        <span style="justify-content: flex-end;"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="#5fa811" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                            </span>
+                            6420<strong style="margin: 0 2px;">021</strong>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708" />
+                            </svg>
+                        </span>
+                        <button>ثبت نام مدارس</button>
+                        <button>ثبت نام معلمان</button>
+                    </div>
+                    <div id="lMSF">
+                        <img style="width: 100px;height: 120px;" src="../img/75.png" alt="#">
+                        <img style="width: 100px;height: 120px;" src="../img/76.png" alt="#">
+                        <img src="../img/77.svg" alt="#">
+                        <img src="../img/78.png" alt="#">
+                        <img src="../img/79.png" alt="#">
+                    </div>
+
+                </div>
+                <div id="sideBM">
+                    <p>
+                        گاج مارکت ، مرکز خرید و فروش انواع کتاب‌های کمک درسی، آموزشی، دانشگاهی، زبان‌های خارجی، عمومی،
+                        کودک و نوجوان می‌باشد و مرجعی برای تهیه انواع لوازم‌التحریر مورد نیاز برای دانش‌آموزان و
+                        دانشجویان، لوازم اداری برای شرکت‌ها و سازمان‌ها و بازی‌های آموزشی برای تمامی سنین است.
+                    </p>
+                </div>
+            </div>
+            <div id="bSf">
+                <div id="mainlogo">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#FCFCFC"
+                            d="M48,-60.2C59.9,-57.5,65.5,-40.3,69.2,-23.7C72.9,-7.1,74.6,8.8,67.5,19.2C60.4,29.6,44.4,34.4,31.7,45.5C19,56.6,9.5,74.1,-1.5,76.2C-12.6,78.3,-25.1,65.1,-32.4,52.2C-39.7,39.3,-41.7,26.8,-43.9,15.3C-46.1,3.9,-48.6,-6.3,-46.9,-16.4C-45.2,-26.4,-39.3,-36.2,-30.8,-40C-22.3,-43.8,-11.1,-41.6,3.5,-46.4C18.1,-51.2,36.2,-62.9,48,-60.2Z"
+                            transform="translate(100 100)" />
+                    </svg>
+                    <img src="../img/84.png" alt="#">
+                </div>
+                <div id="logos">
+                </div>
+                <div id="copyR">
+                    <div class="cont">
+                        <span>Copyright 2024 - Gajmarket©</span>
+                        <span>gaj International Publications</span>
+                    </div>
+                    <div class="logo">
+                        <img src="../img/80.png" alt="#">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <button id="btnScroll">
+        <a href="#header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+            </svg>
+        </a>
+    </button>
+
+
+    <script src="../bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

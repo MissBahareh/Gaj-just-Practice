@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گاج - shop1</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../Sass/shop1.min.css">
+    <link rel="stylesheet" href="../Sass/shop1cssImport.css">
+
+</head>
+
+<body>
+    <div id="scrollHeader">
+        <img id="scrollHeaderimg" src="../img/lpgo.png" alt="#">
+        <div id="inputdiv">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </button>
+            <input id="scrollHeaderinp" type="text" placeholder="محصول خود را جست و جو کنید ...">
+        </div>
+        <div id="btnDiv">
+            <a href="../html/login.html" style="margin: 0 50px;border: 1px solid black;"><button
+                    style="background: white;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>ثبت نام / ورود</button></a>
+            <a href="#"><button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-basket" viewBox="0 0 16 16">
+                        <path
+                            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5" />
+                    </svg>سبد خرید<span style="background-color: white;">0</span></button></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="header">
+            <div id="subAccess">
+                <div id="subAccessInterDiv"></div>
+                <div id="subAccessInterDivDetail"></div>
+                <div id="subAccessInterDivDetailSub"></div>
+                <ul id="subAccessUl">
+                    <li class="mainLi">کمک درسی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">عمومی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">کودک و نوجوان
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">دانشگاهی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">زبان خارجی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">لوازم تحریر
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                    <li class="mainLi">بازی و آموزشی
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(120, 118, 118)"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div id="access">
+                <div id="inter">
+                    <div id="logo">
+                        <img src="../img/lpgo.png" alt="logo">
+                    </div>
+                    <div id="search">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="محصول خود را جست و جو کنید ...">
+
+                    </div>
+                </div>
+                <div id="btnH">
+                    <a href="../html/login.html">
+                        <button id="user" style="background-color:rgba(255, 255, 255, 0) ; border: 1px solid black;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            ثبت نام / ورود
+                        </button>
+                    </a>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-basket" viewBox="0 0 16 16">
+                            <path
+                                d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5" />
+                        </svg>
+                        سبد خرید
+                        <span>0</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="content">
+            <div id="menuBar">
+                <div id="titleSidrMnue">
+                    <h2>کتاب کمک درسی جامع زیست شناسی کنکور</h2>
+                    <span>(98 محصول)</span>
+                    <div id="mapPage">
+                        <button style="width: 15%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(40, 40, 40)"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(40, 40, 40)"
+                                class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                            </svg>
+                        </button>
+                        <button>
+                            <span>کمک درسی</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(40, 40, 40)"
+                                class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                            </svg>
+                        </button>
+                        <button style="width: 15%;"> <span>کنکور</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(40, 40, 40)"
+                                class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                            </svg>
+                        </button>
+                        <button><span>زیست شناسی</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div id="searchRow">
+                    <span id="titleSide">نمایش کالاهای موجود</span>
+
+                    <div class="toggle-button-cover">
+                        <div id="button-3" class="button r">
+                            <input class="checkbox" type="checkbox">
+                            <div class="knobs"></div>
+                            <div class="layer"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="titlesRow">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    تولید کننده
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv1">
+
+
+                                    <form class="form">
+                                        <label for="search">
+                                            <input required="" autocomplete="off"
+                                                placeholder="جست و جو در تولید کننده ..." id="search" type="text">
+                                            <div class="icon">
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                                        stroke-linejoin="round" stroke-linecap="round"></path>
+                                                </svg>
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round"
+                                                        stroke-linecap="round"></path>
+                                                </svg>
+                                            </div>
+                                            <button type="reset" class="close-btn">
+                                                <svg viewBox="0 0 20 20" class="h-5 w-5"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path clip-rule="evenodd"
+                                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                                        fill-rule="evenodd"></path>
+                                                </svg>
+                                            </button>
+                                        </label>
+                                    </form>
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            انتشارات خیلی سبز
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات بین المللی گاج
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات مهروماه
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات کانون فرهنگی آموزش قلم چی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات الگو
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات کاپ
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات مشاوران آموزش
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات دریافت
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات تخته سیاه
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات صیانت
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            انتشارات منتشران
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            انتشارات مهرگان دانش (فاگو)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    درس
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv2">
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            زیست شناسی
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            شیمی
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    رشته
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv3">
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            علوم تجربی
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            زیست شناسی
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            ریاضی فیزیک
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse4" aria-expanded="false"
+                                    aria-controls="flush-collapse4">
+                                    پایه
+                                </button>
+                            </h2>
+                            <div id="flush-collapse4" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv4">
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            دهم، یازدهم، دوازدهم
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            دهم، یازدهم
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            دوازدهم
+                                        </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse5" aria-expanded="false"
+                                    aria-controls="flush-collapse5">
+                                    سال چاپ
+                                </button>
+                            </h2>
+                            <div id="flush-collapse5" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv5">
+                                    <form class="form">
+                                        <label for="search">
+                                            <input required="" autocomplete="off" placeholder="جست و جو در سال چاپ ..."
+                                                id="search" type="text">
+                                            <div class="icon">
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                                        stroke-linejoin="round" stroke-linecap="round"></path>
+                                                </svg>
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round"
+                                                        stroke-linecap="round"></path>
+                                                </svg>
+                                            </div>
+                                            <button type="reset" class="close-btn">
+                                                <svg viewBox="0 0 20 20" class="h-5 w-5"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path clip-rule="evenodd"
+                                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                                        fill-rule="evenodd"></path>
+                                                </svg>
+                                            </button>
+                                        </label>
+                                    </form>
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            1403
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            1402
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            1401
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            1400
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            1399
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            1398
+
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse6" aria-expanded="false"
+                                    aria-controls="flush-collapse6">
+                                    نویسنده
+                                </button>
+                            </h2>
+                            <div id="flush-collapse6" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv6">
+                                    <form class="form">
+                                        <label for="search">
+                                            <input required="" autocomplete="off" placeholder="جست و جو در نویسنده ..."
+                                                id="search" type="text">
+                                            <div class="icon">
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                                        stroke-linejoin="round" stroke-linecap="round"></path>
+                                                </svg>
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round"
+                                                        stroke-linecap="round"></path>
+                                                </svg>
+                                            </div>
+                                            <button type="reset" class="close-btn">
+                                                <svg viewBox="0 0 20 20" class="h-5 w-5"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path clip-rule="evenodd"
+                                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                                        fill-rule="evenodd"></path>
+                                                </svg>
+                                            </button>
+                                        </label>
+                                    </form>
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            گروه مولفان
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            اسفندیار طاهری
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            اشکان هاشمی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            محمد عیسایی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            علی پناهی‌شایق
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            اشکان زرندی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            بهروز شهابی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            پوریا خیراندیش
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            امیررضا پاشاپور یگانه
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            امیررضا پاشور یگانه
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            لیزا یوری
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            حسین رضایی
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            سوگل فرقانی
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse7" aria-expanded="false"
+                                    aria-controls="flush-collapse7">
+                                    سری
+                                </button>
+                            </h2>
+                            <div id="flush-collapse7" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" id="accordionDiv7">
+                                    <form class="form">
+                                        <label for="search">
+                                            <input required="" autocomplete="off" placeholder="جست و جو در سری ..."
+                                                id="search" type="text">
+                                            <div class="icon">
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                                        stroke-linejoin="round" stroke-linecap="round"></path>
+                                                </svg>
+                                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round"
+                                                        stroke-linecap="round"></path>
+                                                </svg>
+                                            </div>
+                                            <button type="reset" class="close-btn">
+                                                <svg viewBox="0 0 20 20" class="h-5 w-5"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path clip-rule="evenodd"
+                                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                                        fill-rule="evenodd"></path>
+                                                </svg>
+                                            </button>
+                                        </label>
+                                    </form>
+                                    <ul>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            گروه مولفان
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            اسفندیار طاهری
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            اشکان هاشمی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            محمد عیسایی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            علی پناهی‌شایق
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            اشکان زرندی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            بهروز شهابی
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            پوریا خیراندیش
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            امیررضا پاشاپور یگانه
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            امیررضا پاشور یگانه
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+
+                                            </label>
+                                            لیزا یوری
+
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            حسین رضایی
+                                        </li>
+                                        <li>
+                                            <label class="material-checkbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            سوگل فرقانی
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="interContent">
+                <div id="filterSide">
+                    <span id="filterSpan">مرتب‌سازی بر اساس :</span>
+                    <div id="btnsDiv" class="btn-group0" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label id="lableBtn" class="btn btn-outline-light " for="btnradio1">جدیدترین</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label id="lableBtn" class="btn btn-outline-light " for="btnradio2">محبوب ترین</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label id="lableBtn" class="btn btn-outline-light " for="btnradio3">پرفروش ترین</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                        <label id="lableBtn" class="btn btn-outline-light " for="btnradio4">ارزان ترین</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                        <label id="lableBtn" class="btn btn-outline-light " for="btnradio5">گرانترین</label>
+                    </div>
+
+                    <form class="form"
+                        style="width: 25%; margin: 0 2px;  border-radius: 10px; background-color: white; border-color: white;">
+                        <label for="search">
+                            <input style="font-size: 13px;" required="" autocomplete="off"
+                                placeholder="جست و جو در عناوین ..." id="search" type="text">
+                            <div class="icon">
+                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <button type="reset" class="close-btn">
+                                <svg viewBox="0 0 20 20" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </label>
+                    </form>
+
+                </div>
+                <div id="divCart1">
+                    <div class="cards">
+                        <img src="../img/86.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد ۲ سری iQ</h3>
+                        <span><span class="lastPrice">860,000</span><button>15%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">731,000 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/87.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 2 انتشارات</h3>
+                        <span><span class="lastPrice">900,000</span><button>21%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">711,000 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/88.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 2 انتشارات</h3>
+                        <span><span class="lastPrice">830,000</span><button>16%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">697,200 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/89.jpg" alt="#">
+                        <h3>مجموعه 2 جلدی کتاب زیست شناسی جامع کنکور تجربی</h3>
+                        <span><span class="lastPrice">890,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">977,500 تومان</span>
+                    </div>
+
+
+
+
+
+                    <div class="cards">
+                        <img src="../img/90.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 1 سری طبقه</h3>
+                        <span><span class="lastPrice">850,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">637,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/91.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 2 سری میکرو</h3>
+                        <span><span class="lastPrice">730,000</span><button>15%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">620,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/92.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 1 سری iQ</h3>
+                        <span><span class="lastPrice">700,000</span><button>15%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">595,000 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/93.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 3 سری iQ</h3>
+                        <span><span class="lastPrice">700,000</span><button>15%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">595,000 تومان</span>
+                    </div>
+
+
+
+
+
+
+                    <div class="cards">
+                        <img src="../img/94.jpg" alt="#">
+                        <h3>کتاب درسنامه زیست شناسی جامع کنکور تجربی انتشارات</h3>
+                        <span><span class="lastPrice">690,000</span><button>16%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">579,600 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/95.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 1 سری میکرو</h3>
+                        <span><span class="lastPrice">650,000</span><button>15%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">552,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/96.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 1 انتشارات</h3>
+                        <span><span class="lastPrice">690,000</span><button>21%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">545,100 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/97.jpg" alt="#">
+                        <h3>کتاب پرسش های چهار گزینه ای زیست شناسی جامع کنکور</h3>
+                        <span><span class="lastPrice">630,000</span><button>16%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">529,200 تومان</span>
+                    </div>
+
+
+
+                    <div class="cards">
+                        <img src="../img/98.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور جلد 2 برای کنکور 1404</h3>
+                        <span><span class="lastPrice">650,000</span><button>26%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">481,000 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/99.jpg" alt="#">
+                        <h3>کتاب پرسش های چهار گزینه ای زیست شناسی جامع کنکور</h3>
+                        <span><span class="lastPrice">600,000</span><button>21%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">474,000 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/100.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور جلد 1 برای کنکور 1403</h3>
+                        <span><span class="lastPrice">585,000</span><button>26%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">432,900 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/101.jpg" alt="#">
+                        <h3>کتاب زیستاگرام جامع کنکور تجربی انتشارات مهر و ماه سال</h3>
+                        <span><span class="lastPrice">498,000</span><button>15%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">423,300 تومان</span>
+                    </div>
+
+
+
+                    <div class="cards">
+                        <img src="../img/102.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور جلد 2 برای کنکور 1403</h3>
+                        <span><span class="lastPrice">550,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">412,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/103.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 2 سری نسل</h3>
+                        <span><span class="lastPrice">490,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">367,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/104.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور سری آزمونیوم انتشارات</h3>
+                        <span><span class="lastPrice">450,000</span><button>21%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">355,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/105.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 2 انتشارات</h3>
+                        <span><span class="lastPrice">420,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">315,000 تومان</span>
+                    </div>
+
+
+
+                    <div class="cards">
+                        <img src="../img/106.jpg" alt="#">
+                        <h3>کتاب مرجع بیولوژی کمپبل مبحث ژنتیک جلد 3 ویرایش</h3>
+                        <span><span class="lastPrice">350,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">265,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/107.jpg" alt="#">
+                        <h3>کتاب عبارت های درست و نادرست قیدنامه در زیست</h3>
+                        <span><span class="lastPrice">290,000</span><button>16%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">243,600 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/104.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور سری آزمونیوم انتشارات</h3>
+                        <span><span class="lastPrice">450,000</span><button>21%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">355,500 تومان</span>
+                    </div>
+                    <div class="cards">
+                        <img src="../img/105.jpg" alt="#">
+                        <h3>کتاب زیست شناسی جامع کنکور تجربی جلد 2 انتشارات</h3>
+                        <span><span class="lastPrice">420,000</span><button>25%</button></span>
+                        <span style="padding: 0 15px; margin-bottom: 5px;">315,000 تومان</span>
+                    </div>
+
+                </div>
+                <div id="pages">
+                    <!-- <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </button> -->
+                    <div class="pagessbtn">
+
+                        <input type="radio" class="btn-check" name="options-outlined" id="btn1" autocomplete="off"
+                            checked>
+                        <label style="color: black;" class="btn btn-outline-success" for="btn1">1</label>
+
+
+
+                        <input type="radio" class="btn-check" name="options-outlined" id="btn2" autocomplete="off">
+                        <label style="color: black;" class="btn btn-outline-success" for="btn2">2</label>
+
+
+
+                        <input type="radio" class="btn-check" name="options-outlined" id="btn3" autocomplete="off">
+                        <label style="color: black;" class="btn btn-outline-success" for="btn3">3</label>
+
+
+
+                        <input type="radio" class="btn-check" name="options-outlined" id="btn4" autocomplete="off">
+                        <label style="color: black;" class="btn btn-outline-success" for="btn4">4</label>
+
+
+
+
+                    </div>
+                    <!-- <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                        </svg>
+                    </button> -->
+
+
+                </div>
+
+
+
+            </div>
+            
+        </div>
+        <div id="footer">
+
+            <div id="tSf">
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img src="../img/71.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4>پرداخت امن از<strong>درگاه بانکی</strong></h4>
+                        <span>امنیت در خریدهای آنلاین</span>
+                    </div>
+                </div>
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img src="../img/72.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4>تضمین<strong>کیفیت کالا</strong></h4>
+                        <span>خرید بهترین کالای موجود</span>
+                    </div>
+                </div>
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img style="width: 80px;" src="../img/73.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4 style="font-size: 14px;">فرصت هفت روزه<strong>بازگشت کالا</strong></h4>
+                        <span style="font-size: 12px;">ضمانت بازگشت کالا تا 7 روز</span>
+                    </div>
+                </div>
+                <div class="cartTf">
+                    <div class="imgDivF">
+                        <img style="height: 60px;" src="../img/74.png" alt="#">
+                    </div>
+                    <div class="contDivF">
+                        <h4>پشتیبانی<strong>24 ساعته</strong></h4>
+                        <span>تماس با 0216420</span>
+                    </div>
+                </div>
+            </div>
+            <div id="mSf">
+                <div id="sideRM">
+                    <div id="col1f">
+                        <h5><strong>راهنمای</strong>خرید</h5>
+                        <button>چگونگی ثبت سفارش</button>
+                        <button>چگونگی ارسال کالا</button>
+                        <button>چگونگی پرداخت</button>
+                    </div>
+                    <div id="col2f">
+                        <h5><strong>خدمات</strong>مشتریان</h5>
+                        <button>معرفی تخفیف‌ها</button>
+                        <button>پرسش‌های متداول</button>
+                        <button>چگونگی بازگشت کالا</button>
+                        <button>حریم خصوصی</button>
+                    </div>
+                    <div id="col3f">
+                        <h5><strong>مجموعه </strong>گاج</h5>
+                        <button>گاجینو</button>
+                        <button>دکتر آی کیو</button>
+                        <button>مای گاج</button>
+                    </div>
+                    <div id="col4f">
+                        <h5><strong>نقشه</strong>گاج مارکت</h5>
+                        <button>درباره ما</button>
+                        <button>تماس با ما</button>
+                        <button>فرصت شغلی</button>
+                        <button>شعب گاج<span>جدید</span></button>
+                    </div>
+                </div>
+                <div id="sideLM">
+                    <div id="rMSF">
+                        <span style="background-color: #85C441;border-radius: 10px;color: white;">کارشناسان ما میزبان
+                            صدایتان هستند <img style="margin: 0 5px;"
+                                src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Slightly%20Smiling%20Face.png"
+                                alt="Slightly Smiling Face" width="25" height="25" /></span>
+                        <span style="justify-content: flex-end;"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="#5fa811" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                            </span>
+                            6420<strong style="margin: 0 2px;">021</strong>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708" />
+                            </svg>
+                        </span>
+                        <button>ثبت نام مدارس</button>
+                        <button>ثبت نام معلمان</button>
+                    </div>
+                    <div id="lMSF">
+                        <img style="width: 100px;height: 120px;" src="../img/75.png" alt="#">
+                        <img style="width: 100px;height: 120px;" src="../img/76.png" alt="#">
+                        <img src="../img/77.svg" alt="#">
+                        <img src="../img/78.png" alt="#">
+                        <img src="../img/79.png" alt="#">
+                    </div>
+
+                </div>
+                <div id="sideBM">
+                    <p>
+                        گاج مارکت ، مرکز خرید و فروش انواع کتاب‌های کمک درسی، آموزشی، دانشگاهی، زبان‌های خارجی، عمومی،
+                        کودک و نوجوان می‌باشد و مرجعی برای تهیه انواع لوازم‌التحریر مورد نیاز برای دانش‌آموزان و
+                        دانشجویان، لوازم اداری برای شرکت‌ها و سازمان‌ها و بازی‌های آموزشی برای تمامی سنین است.
+                    </p>
+                </div>
+            </div>
+            <div id="bSf">
+                <div id="mainlogo">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#FCFCFC"
+                            d="M48,-60.2C59.9,-57.5,65.5,-40.3,69.2,-23.7C72.9,-7.1,74.6,8.8,67.5,19.2C60.4,29.6,44.4,34.4,31.7,45.5C19,56.6,9.5,74.1,-1.5,76.2C-12.6,78.3,-25.1,65.1,-32.4,52.2C-39.7,39.3,-41.7,26.8,-43.9,15.3C-46.1,3.9,-48.6,-6.3,-46.9,-16.4C-45.2,-26.4,-39.3,-36.2,-30.8,-40C-22.3,-43.8,-11.1,-41.6,3.5,-46.4C18.1,-51.2,36.2,-62.9,48,-60.2Z"
+                            transform="translate(100 100)" />
+                    </svg>
+                    <img src="../img/84.png" alt="#">
+                </div>
+                <div id="logos">
+                </div>
+                <div id="copyR">
+                    <div class="cont">
+                        <span>Copyright 2024 - Gajmarket©</span>
+                        <span>gaj International Publications</span>
+                    </div>
+                    <div class="logo">
+                        <img src="../img/80.png" alt="#">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="../bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="../js/shop1.js"></script>
+</body>
+
+</html>
